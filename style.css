@@ -8,7 +8,7 @@ body {
 	width:50px;
 }
 .file-upload {
-  padding : 5% 1%;
+  padding : 5% 20%;
   border-radius: 10px;
   border: solid 1.5px #f6f7fa;
   background-color: #f6f7fa;
@@ -342,9 +342,6 @@ body {
 .jocoding {
 	text-align : center;
 }
-.jocoding h5 {
-	color: #ffffff;
-}
 .ad-banner1 {
 	width: 300px;
 	margin : 0 auto;
@@ -356,4 +353,14 @@ body {
 .ad_upper {
 	width: 320px;
 	margin : 0 auto;
+}
+.footer {
+	text-align : center;
+}
+.contact_me {
+	font-weight : 700;
+	font-size: 25px;
+	text-decoration : none;
+	margin-top: 10px;
+	color : #ffffff;
 }
