@@ -72,6 +72,9 @@
 		</nav>
 		<section class="section">
 			<h1 class="title">인공지능 명품상 테스트</h1>
+			<h2 class="subtitle">
+				내가 풍기는 분위기에 어울리는 명품 브랜드는?
+			</h2>
 		</section>
 		<script
 			class="jsbin"
@@ -88,7 +91,7 @@
 				<div class="drag-text">
 					<img src="img/upload.svg" class="mt-1 upload" />
 					<h4>
-						(사진 첨부)
+						얼굴 사진을 올려놓거나 눌러서 업로드 하십시오.
 					</h4>
 				</div>
 			</div>
@@ -96,7 +99,7 @@
 				<img class="file-upload-image" id="face-image" src="#" alt="your image" />
 				<div id="loading" class="animated bounce">
 					<div class="spinner-border" role="status">
-						<span class="sr-only">Loading...</span>
+						<span class="sr-only"></span>
 					</div>
 					<p class="text-center">AI가 당신의 분위기를 분석중입니다.</p>
 				</div>
@@ -301,7 +304,7 @@
 						resultCeleb = '스톤상 연예인 : 키드밀리, 딘';
 						break;
 					case 'thom':
-						resultTitle = 'Thom Brown';
+						resultTitle = 'THOM BROWNE';
 						resultExplain =
 							'톰브라운처럼 댄디한 매력과 모던한 감성을 동시에 지녔고, 톰 브라운이 추구하는 완벽주의라는 수식어가 가장 잘 어울릴 것 같은 당신은 인간 톰브라운, <br>"톰브라운상" 입니다.';
 						resultCeleb = '톰브상 연예인 : 김수현, 방탄소년단 진, 김나영, 마마무 문별';
@@ -335,10 +338,10 @@
 					var labelTitle;
 					switch (prediction[i].className) {
 						case 'dior':
-							labelTitle = 'Dior';
+							labelTitle = 'DIOR';
 							break;
 						case 'channel':
-							labelTitle = 'Channel';
+							labelTitle = 'CHANNEL';
 							break;
 						case 'gucci':
 							labelTitle = 'GUCCI';
@@ -347,7 +350,7 @@
 							labelTitle = 'STONE ISLAND';
 							break;
 						case 'thom':
-							labelTitle = 'Thom Brown';
+							labelTitle = 'THOM BROWNE';
 							break;
 						default:
 							labelTitle = '알수없음';

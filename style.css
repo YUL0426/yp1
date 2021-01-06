@@ -80,6 +80,7 @@ body {
 
 .drag-text {
   text-align: center;
+  font-family : 'Gulim', sans-serif;
 }
 
 .drag-text h3 {
@@ -162,7 +163,7 @@ body {
   color: #ffffff;
 }
 .subtitle {
-  font-size: 33px;
+  font-size: 25px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
